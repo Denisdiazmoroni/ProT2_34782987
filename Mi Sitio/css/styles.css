@@ -19,7 +19,6 @@ html {
 .hero {
   background: url(../img/portada.jpg) no-repeat;
   background-size: cover;
-  height: 0.5vh;
   min-height: 600px;
   color: white;
 }
@@ -27,10 +26,6 @@ html {
 h1,
 h2 {
   font-family: "Alfa Slab One", serif;
-}
-
-body {
-  background-color: #ffffff;
 }
 
 .notice {
@@ -327,26 +322,6 @@ section p {
   box-shadow: 0 5px 15px rgba(224, 62, 47, 0.7);
 }
 
-/* Botón Spotify verde */
-.btn-spotify {
-  color: #1DB954;
-  border-color: #1DB954;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  border-width: 2px;
-  padding: 0.6rem 1.8rem;
-  border-radius: 50px;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-  box-shadow: 0 3px 6px var(--sombra);
-  background-color: transparent;
-}
-
-.btn-spotify:hover {
-  background-color: #1DB954;
-  color: var(--blanco);
-  box-shadow: 0 5px 15px rgba(29, 185, 84, 0.7);
-}
 
 /* Iframes */
 iframe {
