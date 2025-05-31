@@ -356,3 +356,124 @@ footer {
     padding: 1.5rem 1.5rem;
   }
 }
+
+/* Estilos generales */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header de Plenitud */
+.plenitud-header {
+  margin-top: 56px; 
+  background: linear-gradient(to right, #fbe9e7, #fce4ec);
+  padding: 5rem 2rem;
+  text-align: center;
+  color: #6a1b9a;
+}
+
+
+.plenitud-header h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #ad1457;
+}
+
+.plenitud-header .mensaje-mujer {
+  font-size: 1.25rem;
+  font-weight: 400;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #6a1b9a;
+}
+
+.testimonio {
+  background-color: #fff3e0;
+  padding: 3rem 2rem;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+  margin: 0;
+  color: #5d4037;
+}
+
+.testimonio blockquote {
+  quotes: "“" "”";
+  margin: 0;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.testimonio blockquote::before,
+.testimonio blockquote::after {
+  content: '"';
+  font-size: 2rem;
+  color: #d81b60;
+}
+
+.testimonio cite {
+  display: block;
+  margin-top: 1rem;
+  font-style: normal;
+  font-size: 1rem;
+  color: #8d6e63;
+}
+
+.btn-mujer {
+  background-color: #f48fb1;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-mujer:hover {
+  background-color: #ec407a;
+}
+
+/* Responsive ajustes */
+@media (max-width: 768px) {
+  .plenitud-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .plenitud-header .mensaje-mujer {
+    font-size: 1.1rem;
+  }
+
+  .testimonio {
+    font-size: 1rem;
+    padding: 2rem 1rem;
+  }
+
+  .btn-mujer {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .plenitud-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .plenitud-header .mensaje-mujer {
+    font-size: 1rem;
+  }
+
+  .testimonio {
+    font-size: 0.95rem;
+  }
+}
+section.actividades h2,
+section.galeria h2 {
+  border-bottom: none;
+  padding-bottom: 0;
+}
